@@ -65,4 +65,7 @@ curl -X GET http://127.0.0.1:8000/
 - **200 OK** – Successful request  
 - **500 Internal Server Error** – An unexpected issue occurred  
 
-##### [https://hng.tech/hire/python-developers](https://hng.tech/hire/python-developers).
+##### Deployment
+[https://hng1-production.up.railway.app/docs](https://hng1-production.up.railway.app/docs)
+
+##### [https://hng.tech/hire/python-developers](https://hng.tech/hire/python-developers)
