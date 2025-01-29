@@ -45,7 +45,7 @@ GITHUB_URL=https://github.com/yourusername/your-repo
 uvicorn main:app --reload
 The API will be available at http://127.0.0.1:8000/docs
 ```
-### API Endpoint
+##### API Endpoint
 **Method:** GET  
 **Path:** `/`  
 **Description:** Returns basic user information 
@@ -54,14 +54,15 @@ The API will be available at http://127.0.0.1:8000/docs
 curl -X GET http://127.0.0.1:8000/
 ```
 ##### Response Format:
+```json
 {
   "email": "your-email@example.com",
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/yourusername/your-repo"
 }
-### Status Codes  
-**200 OK** – Successful request  
-**500 Internal Server Error** – An unexpected issue occurred  
+```
+##### Status Codes  
+- **200 OK** – Successful request  
+- **500 Internal Server Error** – An unexpected issue occurred  
 
-
-### [https://hng.tech/hire/python-developers](https://hng.tech/hire/python-developers).
+##### [https://hng.tech/hire/python-developers](https://hng.tech/hire/python-developers).
